@@ -1,0 +1,19 @@
+{
+    "name": "schneidewindit/magento2-fixerio-apilayer",
+    "description": "Fixer IO Magento2 fix to work with APILayer access key",
+    "require": {
+        "magento/module-directory": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SchneidewindIt\\FixerIoApilayer\\": ""
+        }
+    }
+}
